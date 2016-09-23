@@ -5,7 +5,7 @@ rdiscount:
 permalink: /:title.html
 paginate: 5
 gems: [jekyll-paginate]
-port: 4000
+port:
 safe: true
 url: https://straff2002.github.io
 author: Greig Strafford
