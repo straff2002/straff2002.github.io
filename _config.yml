@@ -1,5 +1,5 @@
 highlighter: rouge
-markdown: kramdown
+markdown: rdiscount
 rdiscount:
   extensions: [smart]
 permalink: /:title.html
