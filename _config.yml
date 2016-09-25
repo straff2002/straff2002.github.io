@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -27,3 +28,40 @@ github_username:  straff2002
 # Build settings
 markdown: kramdown
 theme: minima
+=======
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: https://straff2002.github.io/vitae
+author: Greig Strafford
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Greig Strafford's Resume
+name: Greig Strafford
+email: greig@strafford.co.nz
+email_full: mailto:greig@strafford.co.nz
+website: strafford.co.nz
+website_full: https://strafford.co.nz
+github: straff2002
+twitter: straff2002
+tel: +64 224 758650
+tel_full: tel:+64224758650
+google_maps: 'https://www.google.co.uk/maps/place/Auckland'
+#address: 44 Perth Street
+#postcode: EH3 5BL
+#city: Edinburgh
+country: New Zealand
+#google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
+>>>>>>> aa63866c40906652530a279edbb858f9a4e4ffe2
